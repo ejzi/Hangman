@@ -1,0 +1,53 @@
+html {
+  width: 700px;
+  background-image: url("./../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+body {
+  text-align: center;
+  font-family: 'Kalam', cursive; }
+
+.level, .language, .category {
+  display: block; }
+
+ul {
+  display: inline-block; }
+
+ul li {
+  font-size: 30px;
+  list-style: none;
+  display: inline-block; }
+
+.lettersList button {
+  margin: 3px 3px;
+  border-radius: 5px;
+  font-size: 20px; }
+
+.lettersList {
+  width: 480px;
+  margin: 20px auto; }
+
+.letter:hover {
+  color: white;
+  border-radius: 5px; }
+
+.language {
+  text-align: right; }
+
+.image {
+  display: inline-block;
+  margin-top: 40px; }
+
+.footer {
+  margin: 20px;
+  text-align: right; }
+
+h1, h2, h2, p {
+  margin: 5px; }
+
+.language {
+  display: inline-block;
+  float: left; }
+
+/*# sourceMappingURL=main.css.map */

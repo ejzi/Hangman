@@ -1,0 +1,42 @@
+.level, .language, .category {
+  display: block;
+}
+
+ul{
+  display: inline-block;
+}
+
+ul li{
+  font-size: 30px;
+  list-style: none;
+  display: inline-block;
+}
+
+.lettersList button {
+  margin: 3px 3px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.lettersList {
+  width: 480px;
+  margin: 20px auto;
+}
+
+.letter:hover {
+  color: white;
+  border-radius: 5px;
+}
+
+.language {
+  text-align: right;
+}
+
+.image {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.highlight{
+  color: green;
+}
